@@ -1,0 +1,56 @@
+.error {
+    z-index: 2;
+    /* border: 2px solid red; */
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 12%;
+    right: 4%;
+    text-align: center;
+    padding: 0vh 1vw;
+    background-color: red;
+    border-radius: 5px;
+    /* display: none; */
+    /* animation: hideMe 3s ; */
+
+}
+
+.sucess {
+    z-index: 2;
+    /* border: 2px solid red; */
+    position: absolute;
+    height: auto;
+    width: auto;
+    top: 12%;
+    right: 4%;
+    text-align: center;
+    padding: 0vh 1vw;
+    background-color: green;
+    border-radius: 5px;
+    /* display: none; */
+    /* animation: hideMe 3s ; */
+
+
+}
+
+@keyframes hideMe {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.error-message {
+    color: white;
+    font-size: 1.1vw;
+    margin: 2vh 0vw;
+}
+
+.sucess-message {
+    color: white;
+    font-size: 1.1vw;
+    margin: 2vh 0vw;
+}

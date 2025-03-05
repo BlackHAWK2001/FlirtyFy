@@ -1,0 +1,15 @@
+.heart-shape {
+    /* background-image: url('../../images/background.png'); */
+    min-height: 100%;
+    max-width: 100%;
+    /* background-position: center; */
+    /* background-size: 100vw 100vh; */
+
+    /* resize: both; */
+    /* position: relative;  */
+    position: absolute;
+    z-index: 3;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, )0.13;
+    backdrop-filter: blur(10px);
+}
